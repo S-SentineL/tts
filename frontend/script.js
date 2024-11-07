@@ -9,7 +9,7 @@ document.getElementById("ttsForm").onsubmit = function (event) {
 
     document.getElementById("message").innerText = "Generating speech...";
 
-    fetch("web-production-1360f.up.railway.app/speak", {
+    fetch("https://tts-production-a748.up.railway.app/speak", {
         method: "POST",
         body: new URLSearchParams({ text }) 
     })
