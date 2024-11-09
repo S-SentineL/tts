@@ -15,7 +15,7 @@ document.getElementById("ttsForm").onsubmit = function (event) {
     messageEl.innerText = "Generating speech...";
     controlsEl.classList.add("hidden");
 
-    fetch("http://127.0.0.1:5000/speak", {
+    fetch("https://tts-backend-flask.onrender.com/speak", {
         method: "POST",
         body: new URLSearchParams({ text })
     })
