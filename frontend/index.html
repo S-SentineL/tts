@@ -3,17 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Text-to-Speech</title>
+    <title>Text-to-Speech Converter</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Text-to-Speech Converter</h1>
-    <form id="ttsForm">
-        <textarea name="text" id="textInput" placeholder="Type text here..."></textarea><br>
-        <button type="submit">Convert to Speech</button>
-    </form>
-    <div id="message"></div>
-    
+    <div class="container">
+        <h1>Text-to-Speech Converter</h1>
+        <form id="ttsForm">
+            <textarea name="text" id="textInput" placeholder="Type text here..."></textarea>
+            <button type="submit" id="convertButton">Convert to Speech</button>
+        </form>
+        <div id="controls" class="hidden">
+            <button id="playButton">Play</button>
+            <button id="downloadButton">Download</button>
+        </div>
+        <div id="message"></div>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>

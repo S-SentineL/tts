@@ -12,7 +12,7 @@ AUDIO_FOLDER = "../frontend/AudioFiles"
 # Ensure the folder exists
 os.makedirs(AUDIO_FOLDER, exist_ok=True)
 
-@app.route("/speak", methods=["POST"])
+@app.route('/speak', methods=['POST'])
 def speak():
     text = request.form.get("text")
     if not text:
