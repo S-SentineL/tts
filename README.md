@@ -31,8 +31,10 @@ Ensure you have the following installed:
 - Flask-CORS
 
 
-Usage
-Open the web app in your browser: [Text-to-Speech Website](https://earnest-griffin-007a89.netlify.app)
-Enter the text you want to convert to speech.
-Click on the "Generate Speech" button.
-Once the speech is generated, you can play it directly or download it as an MP3 file.
+## How to Use
+1. Open the web app in your browser: [Text-to-Speech Website](https://earnest-griffin-007a89.netlify.app)
+2. Enter the text you want to convert into speech.
+3. Click on the **"Generate Speech"** button to start the conversion process.
+4. Once the speech is generated, you can:
+   - Play the speech directly in your browser.
+   - Download the speech as an MP3 file.
